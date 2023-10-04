@@ -1,0 +1,296 @@
+/* Gaya umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 7.5rem;
+  display: flex;
+}
+
+/* Gaya header */
+.header {
+  background-color: #fff;
+  height: 100px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; /* Menyebabkan header penuh lebar */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:nth-child(5) {
+  margin-right: 0px;
+}
+
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Gaya hero */
+.beranda {
+  background-color: #fff;
+  padding: 90px 0;
+}
+
+.beranda .container {
+  align-items: center;
+  justify-content: center;
+}
+
+.cta {
+  font-size: 64px;
+  margin: 0 0 40px 0;
+}
+
+.cta-paragraph {
+  font-size: 20px;
+  margin: 0 0 50px 0;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.container .content-right .hero-image img {
+  width: 40vw;
+  justify-content: end;
+  border-radius: 12px;
+}
+
+/* Gaya Tentang Kami */
+.tentang-kami {
+  background-color: #fff;
+  padding: 90px 0;
+}
+
+.tentang-kami-content {
+  align-items: center;
+}
+
+.tentang-kami-content img {
+  width: 40vw;
+  border-radius: 12px;
+}
+
+.content-left {
+  margin-right: 40px;
+}
+
+.content-right h2 {
+  font-size: 40px;
+}
+
+/* Gaya Menu */
+.menu {
+  background-color: #f1f1f1; /* Ganti warna latar belakang sesuai keinginan */
+}
+
+.menu-content {
+  align-items: center;
+  justify-content: center;
+}
+
+.slideshow-container {
+  width: 80%; /* Ganti lebar slider sesuai keinginan */
+  position: relative;
+  margin: auto;
+}
+
+.slideshow {
+  display: none;
+}
+
+.slideshow img {
+  height: 500px; /* Ganti tinggi gambar sesuai keinginan */
+  object-fit: cover;
+  object-position: center;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  transition: 0.6s ease;
+  border-radius: 3px;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: -2rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* Gaya Outlet Kami */
+.outlet {
+  margin-top: 90px; /* Jarak atas dari section sebelumnya */
+  text-align: center;
+}
+
+.outlet-content {
+  display: flex;
+  flex-direction: column; /* Menyusun elemen secara vertikal */
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.outlet-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.location,
+.hours {
+  padding: 10px;
+}
+
+.map {
+  margin-top: 30px;
+}
+
+.map img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Gaya Ulasan */
+/* Ulasan */
+#ulasan {
+  background-color: #f1f1f1;
+  padding: 30px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.review {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonial {
+  flex: 1 1 300px;
+  max-width: 300px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.testimonial img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.review-text {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Responsive untuk ukuran layar yang lebih kecil */
+@media (max-width: 768px) {
+  .review {
+    flex-direction: column;
+    align-items: center;
+  }
+  .testimonial {
+    max-width: 100%;
+  }
+}
+
+/* Gaya Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.social-media i {
+  color: #fff;
+  margin-right: 10px;
+}

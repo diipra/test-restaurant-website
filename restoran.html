@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restoran XYZ</title>
+    <link
+      rel="stylesheet"
+      href="assets/style.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header container">
+      <div class="logo">
+        <img
+          src="assets/logo.png"
+          alt="Logo Restoran XYZ"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#tentang-kami">Tentang Kami</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#outlet-kami">Outlet Kami</a></li>
+          <li><a href="#ulasan">Ulasan</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section
+        class="beranda"
+        id="beranda"
+      >
+        <div class="container">
+          <div class="content-left">
+            <h1 class="cta">The best noodle in Indonesia</h1>
+            <p class="cta-paragraph">
+              Rasakan berbagai macam varian mie yang tercipta di dunia hanya
+              disini!
+            </p>
+            <a
+              href="#menu"
+              class="cta-button"
+              >Lihat Menu</a
+            >
+          </div>
+
+          <div class="content-right">
+            <div class="hero-image">
+              <img
+                src="assets/hero_image.png"
+                alt="Hero Image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tentang Kami -->
+      <aside
+        id="tentang-kami"
+        class="tentang-kami"
+      >
+        <div class="tentang-kami-content container">
+          <div class="content-left">
+            <img
+              src="assets/about_us.jpg"
+              alt="Gambar Tentang Kami"
+            />
+          </div>
+          <div class="content-right">
+            <h2>Tentang Kami</h2>
+            <article>
+              Restoran XYZ adalah destinasi kuliner yang kuno dan menarik,
+              menyajikan hidangan lezat yang menggugah selera dengan sentuhan
+              unik dari warisan kuliner lokal dan cita rasa internasional. Sejak
+              didirikan, restoran ini berkomitmen untuk memberikan pengalaman
+              kuliner tak terlupakan dengan pelayanan ramah dan atmosfer yang
+              bersahaja. Dengan hidangan berkualitas tinggi dan keramahan yang
+              menghangatkan hati, Restoran XYZ menjadi tempat favorit bagi para
+              pecinta makanan yang ingin merasakan harmoni cita rasa dan
+              kenangan masa lalu yang abadi.
+            </article>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Menu -->
+      <section
+        id="menu"
+        class="menu"
+      >
+        <div class="menu-content container">
+          <h2>Menu</h2>
+          <div class="slideshow-container">
+            <!-- gambarPertama -->
+            <div class="slideshow fade">
+              <img
+                src="assets/image/mie1.jpg"
+                style="width: 100%"
+              />
+              <div class="text">Vermicelli</div>
+            </div>
+
+            <!-- gambarKedua -->
+            <div class="slideshow fade">
+              <img
+                src="assets/image/mie2.jpg"
+                style="width: 100%"
+              />
+              <div class="text">Sup Mie Kari Merah dengan Ayam</div>
+            </div>
+            <!-- gambarKetiga -->
+            <div class="slideshow fade">
+              <img
+                src="assets/image/mie3.jpg"
+                style="width: 100%"
+              />
+              <div class="text">Ramen</div>
+            </div>
+
+            <!-- Anak panah sebelumnya -->
+            <a
+              class="prev"
+              onclick="plusSlides(-1)"
+              >&#10094;</a
+            >
+            <!-- Anak panah selanjutnya -->
+            <a
+              class="next"
+              onclick="plusSlides(1)"
+              >&#10095;</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Outlet Kami -->
+      <section class="outlet">
+        <div class="outlet-content container">
+          <h2 class="text-center">Outlet Kami</h2>
+          <div class="map">
+            <img
+              src="assets/image/map.png"
+              alt="Peta Outlet"
+            />
+          </div>
+          <div class="outlet-details">
+            <div class="location">
+              <h3>Lokasi</h3>
+              <p>Jl. Contoh No. 123, Kota Contoh</p>
+            </div>
+            <div class="hours">
+              <h3>Jam Buka</h3>
+              <p>Senin - Jumat: 09:00 - 21:00</p>
+              <p>Sabtu - Minggu: 10:00 - 22:00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Ulasan -->
+      <section id="ulasan">
+        <div class="container">
+          <h2>Ulasan</h2>
+          <div class="review">
+            <div class="testimonial">
+              <p class="review-text">
+                Pelayanan yang ramah dan makanan yang lezat! Saya pasti akan
+                kembali lagi.
+              </p>
+            </div>
+            <div class="testimonial">
+              <p class="review-text">
+                Restoran ini memiliki suasana yang sangat nyaman dan menu yang
+                variatif. Sangat direkomendasikan!
+              </p>
+            </div>
+            <div class="testimonial">
+              <p class="review-text">
+                Saya benar-benar terkesan dengan cita rasa makanan di sini.
+                Rasanya autentik dan luar biasa.
+              </p>
+            </div>
+            <div class="testimonial">
+              <p class="review-text">
+                Makanan yang disajikan di restoran ini adalah kombinasi sempurna
+                antara rasa dan presentasi. Sangat mengesankan!
+              </p>
+            </div>
+            <div class="testimonial">
+              <p class="review-text">
+                Saya suka atmosfir restoran ini. Staffnya sangat ramah dan
+                profesional. Makanannya juga enak!
+              </p>
+            </div>
+            <div class="testimonial">
+              <p class="review-text">
+                Restoran ini adalah tempat yang tepat untuk menikmati kuliner
+                Indonesia dengan kualitas terbaik.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content container">
+        <div class="logo">
+          <img
+            src="assets/logo.png"
+            alt="Logo Restoran XYZ"
+          />
+        </div>
+        <div class="contact">
+          <h3>Kontak</h3>
+          <p>Telepon: 0123456789</p>
+          <p>Email: info@restoranxyz.com</p>
+        </div>
+        <div class="social-media">
+          <!-- Tambahkan ikon sosial media dan tautan -->
+        </div>
+      </div>
+    </footer>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
